@@ -131,6 +131,7 @@ section.sobre{
 .sabores img{
     width: 40px;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 
