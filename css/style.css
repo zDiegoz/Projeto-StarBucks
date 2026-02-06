@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin:0 auto;
+    padding:0 2%;
+}
+
+html,body{
+    height:100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+}
+
+
+header{
+    height:200px;
+    padding:20px 0;
+}
+
+.logo{
+    width:50%;
+}
+
+.menu{
+    padding-top:30px;
+    width:50%;
+    text-align: right;
+}
+
+.menu a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.sobre{
+    min-height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom: -800px;
+    right: -800px;
+    width: 1500px;
+    height: 1500px;
+    border-radius: 50%;
+    background-color: #017143;
+}
+.copo{
+    margin-top: 50px;
+}
+
+.social-media{
+    position: absolute;
+    right: 820px;
+    top: 200px;
+    height: 200px;
+    width: 40px;
+}
+
+.social-media img{
+    display: block;
+    margin-top: 24px;
+}
+
+.facebook{
+    margin-left: 9px;
+}
+.instagram{
+    margin-left: 3px;
+}
+
+
+.texto-sobre{
+    margin-top:100px;
+}
+
+.texto-sobre h1{
+    font-size: 50px;
+}
+
+.texto-sobre p{
+    margin:20px 0;
+    color:rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+}
+
+.texto-sobre button{
+    border:0;
+    background-color: #017143;
+    color:white;
+    border-radius:10px;
+    width:100px;
+    height:30px;
+    cursor: pointer;
+
+}
+
+.rod-sabores{
+    position: fixed;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sabores{
+    display: flex;
+    gap: 20px;
+    align-items: flex-end; 
+}
+
+.sabores img{
+    width: 40px;
+    transition: 0.3s;
+}
+
+
+.sabores img.sab3{
+    transform: translateY(-15px);
+}
+
+.sabores img.sab2{
+    transform: rotate(20deg);
+}
